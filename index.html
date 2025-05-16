@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Documentation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Control_Flow">Control Flow</a>
+    <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a lightweight, interpreted programming language with first-class functions.</p>
+      <p>It is best known as the scripting language for Web pages.</p>
+      <p>It is an essential part of the web development stack, along with HTML and CSS.</p>
+      <p>You can write JavaScript in a script tag or in a separate `.js` file.</p>
+      <p>Modern JavaScript supports ES6+ syntax and modules.</p>
+      <code>console.log("Hello, world!");</code>
+      <ul>
+        <li>Dynamically typed</li>
+        <li>Prototype-based</li>
+        <li>Event-driven</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Variables are containers for storing data values.</p>
+      <p>You can declare them using `let`, `const`, or `var`.</p>
+      <p>`let` and `const` are block-scoped.</p>
+      <code>let name = "Najoa";</code>
+      <code>const PI = 3.14;</code>
+      <p>`var` is function-scoped and should be avoided in modern code.</p>
+      <ul>
+        <li>let — reassignable</li>
+        <li>const — constant</li>
+        <li>var — legacy keyword</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are blocks of code designed to perform a task.</p>
+      <p>They are defined with the `function` keyword or as arrow functions.</p>
+      <code>function greet(name) { return "Hello " + name; }</code>
+      <code>const add = (a, b) => a + b;</code>
+      <p>Functions can be passed as values, making JavaScript a functional language.</p>
+      <ul>
+        <li>Function Declaration</li>
+        <li>Function Expression</li>
+        <li>Arrow Function</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Control flow refers to the order in which individual statements are executed.</p>
+      <p>Conditional statements are used to perform different actions based on conditions.</p>
+      <code>if (x > 10) { console.log("Big"); }</code>
+      <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+      <p>Loops such as `for`, `while`, and `do...while` are used for iteration.</p>
+      <ul>
+        <li>if / else</li>
+        <li>switch</li>
+        <li>for / while</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The DOM (Document Object Model) represents the structure of a web page.</p>
+      <p>You can use JavaScript to dynamically update content, styles, and structure.</p>
+      <code>document.getElementById("demo").innerHTML = "Changed!";</code>
+      <code>document.querySelector(".btn").addEventListener("click", () => alert("Clicked!"));</code>
+      <p>DOM manipulation is central to creating interactive web apps.</p>
+      <ul>
+        <li>getElementById</li>
+        <li>querySelector</li>
+        <li>addEventListener</li>
+      </ul>
+    </section>
+  </main>
+    <footer>
+    <p>Challenge by free code camp. Coded by NAJOA PROME.</p>
+  </footer>
+</body>
+</html>
